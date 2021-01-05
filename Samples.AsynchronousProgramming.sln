@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples.AsynchronousProgramming.BreakfastSynchronous", "Samples.AsynchronousProgramming.BreakfastSynchronous\Samples.AsynchronousProgramming.BreakfastSynchronous.csproj", "{D9385B60-5E20-4E9B-888E-6AA3C6A0240C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples.AsynchronousProgramming.BreakfastAsynchronous", "Samples.AsynchronousProgramming.BreakfastAsynchronous\Samples.AsynchronousProgramming.BreakfastAsynchronous.csproj", "{20CCA5EF-FF25-458C-A892-3FE4C99FB3B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Samples.AsynchronousProgramming.BreakfastModels", "Samples.AsynchronousProgramming.BreakfastModels\Samples.AsynchronousProgramming.BreakfastModels.csproj", "{A1CDFEB4-C9D8-4CBB-8541-F12F6B7D81CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Breakfast", "Breakfast", "{74659F69-55F9-4A7F-9316-30B28970B4CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{6F89A805-879F-43D6-B757-0A24632D788D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfAppExample", "WpfAppExample\WpfAppExample.csproj", "{A80DE149-6092-4D11-B95E-FEE171836DDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A012DBC0-A491-4C19-80BF-5A46D79F5D58}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9385B60-5E20-4E9B-888E-6AA3C6A0240C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9385B60-5E20-4E9B-888E-6AA3C6A0240C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9385B60-5E20-4E9B-888E-6AA3C6A0240C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9385B60-5E20-4E9B-888E-6AA3C6A0240C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20CCA5EF-FF25-458C-A892-3FE4C99FB3B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20CCA5EF-FF25-458C-A892-3FE4C99FB3B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20CCA5EF-FF25-458C-A892-3FE4C99FB3B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20CCA5EF-FF25-458C-A892-3FE4C99FB3B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1CDFEB4-C9D8-4CBB-8541-F12F6B7D81CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1CDFEB4-C9D8-4CBB-8541-F12F6B7D81CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1CDFEB4-C9D8-4CBB-8541-F12F6B7D81CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1CDFEB4-C9D8-4CBB-8541-F12F6B7D81CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A80DE149-6092-4D11-B95E-FEE171836DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A80DE149-6092-4D11-B95E-FEE171836DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A80DE149-6092-4D11-B95E-FEE171836DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A80DE149-6092-4D11-B95E-FEE171836DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D9385B60-5E20-4E9B-888E-6AA3C6A0240C} = {74659F69-55F9-4A7F-9316-30B28970B4CD}
+		{20CCA5EF-FF25-458C-A892-3FE4C99FB3B5} = {74659F69-55F9-4A7F-9316-30B28970B4CD}
+		{A1CDFEB4-C9D8-4CBB-8541-F12F6B7D81CC} = {74659F69-55F9-4A7F-9316-30B28970B4CD}
+		{A80DE149-6092-4D11-B95E-FEE171836DDC} = {6F89A805-879F-43D6-B757-0A24632D788D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F84F76D-2404-4D05-B34F-751C6530BDAD}
+	EndGlobalSection
+EndGlobal
